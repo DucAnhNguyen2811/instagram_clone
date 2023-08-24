@@ -9,11 +9,11 @@ a {
 
 body {
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
 }
 
@@ -158,4 +158,33 @@ body {
 .logomc {
     width: 107px;
     height: 39px;
+}
+.footer{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.footer_first {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_first a{
+    color: #737373;
+}
+
+.footer_second {
+    display: flex;
+    align-items: center;
+}
+
+.footer_second a{
+    color: #737373;
+}
+
+.language {
+    border: none;
+    color: #737373;
 }
