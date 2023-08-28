@@ -63,7 +63,10 @@ a {
 }
 
 .linkto.user {
+    gap: 12px;
     margin-left: 4px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .img_user {
@@ -128,4 +131,86 @@ a {
     white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis; 
+}
+.content_post {
+    margin-top: 43px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_1 {
+    width: 470px;
+}
+
+.avt {
+    background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+    border-radius: 50%;
+    padding: 2px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avt_user {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+}
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_content_left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.name_user {
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    
+}
+.check {
+    margin-top: 3px;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_post {
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.img_content {
+    margin-top: 10px;
+}
+.img {
+    width: 471px;
+    height: 580px;
+    border-radius: 3px;
+}
+
+.action_content{
+    margin-top: 20px;
+}
+
+
+.icon_action::before {
+    font-size: 24px;
 }
