@@ -170,7 +170,7 @@ a {
     display: flex;
     align-items: center;
     gap: 8px;
-
+    cursor: pointer;
 }
 
 .user {
@@ -207,10 +207,55 @@ a {
 }
 
 .action_content{
-    margin-top: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.action_content_left{
+    display: flex;
+    gap: 15px;
+}
 
 .icon_action::before {
     font-size: 24px;
+    cursor: pointer;
+}
+.icon_action:hover {
+    color: #737373;
+}
+.like_content {
+    margin-top: 12px;
+}
+
+.like{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.caption_content {
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+    gap: 5px;
+}
+.name_caption {
+    font-weight: 600;
+}
+.cmt_content {
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+}
+.cmt {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.icon_cmt{
+    color: #aaa6a6;
+}
+.icon_cmt:hover{
+    color: #d3d3d3;
 }
