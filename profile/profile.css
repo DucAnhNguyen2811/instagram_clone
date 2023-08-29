@@ -155,4 +155,12 @@ a {
     height: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+}
+.part1 {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
 }
