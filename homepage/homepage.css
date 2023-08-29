@@ -264,3 +264,33 @@ a {
 .icon_cmt:hover{
     color: #d3d3d3;
 }
+.content_aside {
+    margin-top: 25px;
+    padding-left: 64px;
+    width: 306px;
+}
+
+.user_aside{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user_aside_left{
+    display: flex;
+    gap: 12px;
+}
+
+.img_user_aside {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+}
+
+.name_user_aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
