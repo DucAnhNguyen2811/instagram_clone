@@ -87,6 +87,7 @@ a {
 
 .header_profile{
     display: flex;
+    padding-bottom: 44px;
 }
 
 .avt {
@@ -163,4 +164,63 @@ a {
     align-items: center;
     gap: 5px;
     font-size: 16px;
+}
+.story_profile {
+    display: flex;
+    gap: 49px;
+    width: 935px;
+    height: 130px;
+    margin-left: 21px;
+    margin-top: 2px;
+}
+.story_1 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 80px;
+}
+.story {
+    background: #e6e6e6;
+    border-radius: 50%;
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_story {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+}
+.name_story {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn{
+    width: 78px;
+    height: 78px;
+    padding: 2px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+}
+.icon_wrapper {
+    background-color: #fafafa;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_plus {
+    font-size: 50px;
+    color: #dcdcdc;
 }
