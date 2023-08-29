@@ -267,7 +267,7 @@ a {
 .content_aside {
     margin-top: 25px;
     padding-left: 64px;
-    width: 306px;
+    width: 296px;
 }
 
 .user_aside{
@@ -293,4 +293,23 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.suggest_user {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.list_user {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.under_aside{
+    margin-top: 47px;
+}
+
+.list_under_first {
+    list-style: none;
+    padding: 0px;
 }
