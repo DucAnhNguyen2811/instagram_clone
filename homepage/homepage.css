@@ -306,10 +306,17 @@ a {
     gap: 10px;
 }
 .under_aside{
-    margin-top: 47px;
+    margin-top: 43px;
 }
 
+
 .list_under_first {
+    gap: 3px;
+    flex-wrap: wrap;
+    display: flex;
     list-style: none;
     padding: 0px;
+}
+.style_a:hover {
+    text-decoration: underline;
 }
