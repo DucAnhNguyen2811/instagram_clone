@@ -133,6 +133,8 @@ a {
     text-overflow: ellipsis; 
 }
 .content_post {
+    flex-direction: column;
+    gap: 20px;
     margin-top: 43px;
     width: 650px;
     display: flex;
@@ -152,6 +154,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.avt.seen{
+    background: #e6e6e6;
 }
 
 .avt_user {
