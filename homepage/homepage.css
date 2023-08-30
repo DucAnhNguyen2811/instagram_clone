@@ -279,6 +279,7 @@ a {
 .user_aside_left{
     display: flex;
     gap: 12px;
+    cursor: pointer;
 }
 
 .img_user_aside {
